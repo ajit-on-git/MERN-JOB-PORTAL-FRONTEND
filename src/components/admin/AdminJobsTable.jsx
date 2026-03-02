@@ -76,7 +76,7 @@ const AdminJobsTable = () => {
                       className="flex items-center gap-2 w-fit cursor-pointer p-2 hover:bg-gray-100 rounded-md"
                     >
                       <Edit2 className="w-4 h-4" />
-                      <span className="text-sm text-gray-700">Edit</span>
+                      <span className="text-sm text-gray-700">Edit Job</span>
                     </div>
                     <div
                       onClick={() =>
