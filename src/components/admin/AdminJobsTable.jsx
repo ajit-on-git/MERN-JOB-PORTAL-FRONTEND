@@ -79,7 +79,6 @@ const AdminJobsTable = () => {
                       <span className="text-sm text-gray-700">Edit Job</span>
                     </div> */}
                     <div
-                      // 69a418abcc0d5e5e14cff04a
                       onClick={() =>
                         navigate(`/admin/jobs/${job.id}/applicants`)
                       }
