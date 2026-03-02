@@ -80,7 +80,7 @@ const AdminJobsTable = () => {
                     </div>
                     <div
                       onClick={() =>
-                        navigate(`/admin/jobs/${job._id}/applicants`)
+                        navigate(`/admin/jobs/${job.company}/applicants`)
                       }
                       className="flex items-center w-fit gap-2 cursor-pointer mt-2 p-2 hover:bg-gray-100 rounded-md"
                     >
